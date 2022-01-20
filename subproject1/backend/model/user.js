@@ -10,7 +10,11 @@ userSchema = new mongoose.Schema({
 })
 
 
+
 //created a collection named User
 const Registered= mongoose.model("Registered", userSchema);
 
 module.exports = Registered;
+
+
+
